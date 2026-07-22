@@ -15,6 +15,27 @@ This project develops a machine learning model to predict customer churn using c
 - Identify the most important factors influencing customer churn.
 - Generate business recommendations based on model findings.
 
+## 📂 Repository Structure
+
+```text
+Customer-Churn-Prediction/
+│
+├── data/
+│   ├── raw/
+│   └── cleaned/
+│
+├── images/
+│
+├── notebooks/
+│   ├── Customer_Churn_Clean.ipynb
+│   ├── Customer_Churn_EDA.ipynb
+│   └── Customer_Churn_Modeling.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
 ## 📊 Dataset
 
 **Dataset:** IBM Telco Customer Churn Dataset
@@ -37,6 +58,9 @@ The dataset contains customer demographic information, subscription details, bil
 - Scikit-learn
 - XGBoost
 - Imbalanced-learn (SMOTE)
+- ColumnTransformer
+- Pipeline
+- RandomizedSearchCV
 - Jupyter Notebook
 
 ## ⚙️ Machine Learning Workflow
@@ -140,9 +164,13 @@ Potential future enhancements for this project include:
 
 ## 📝 Conclusion
 
-This project demonstrates an end-to-end machine learning workflow for customer churn prediction, from data preprocessing and exploratory analysis to model development, evaluation, and business interpretation.
+This project demonstrates a complete end-to-end machine learning workflow for predicting customer churn.
 
-The final Logistic Regression model achieved the best balance of predictive performance and interpretability, making it a suitable choice for identifying customers at risk of churn and supporting customer retention strategies.
+Among the three classification models evaluated, Logistic Regression achieved the highest Recall and ROC-AUC, making it the most suitable model for identifying customers at risk of churning.
+
+Beyond predictive performance, the project also investigated feature selection through a CLTV experiment, applied hyperparameter tuning, and interpreted model coefficients to generate actionable business recommendations.
+
+Overall, this project combines machine learning techniques with business insights to support data-driven customer retention strategies.
 
 ## 👤 Author
 
@@ -154,4 +182,5 @@ The final Logistic Regression model achieved the best balance of predictive perf
 
 ### Connect with me
 
+[GitHub] https://github.com/Nabilah333
 [LinkedIn] https://www.linkedin.com/in/nur-nabilah-nordin-b79111146/
