@@ -139,7 +139,7 @@ Key findings include:
 The figure below illustrates the most influential features identified by the model.
 
 <p align="center">
-  <img src="images/churn_distribution.png" alt="Churn Distribution" width="600"/>
+  <img src="images/feature_coefficients.png" alt="Churn Distribution" width="600"/>
 </p>
 
 ## 💼 Business Recommendations
