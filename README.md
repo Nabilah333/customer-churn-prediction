@@ -1,21 +1,21 @@
-# 📉 Customer Churn Prediction using Machine Learning
+# Customer Churn Prediction using Machine Learning
 
 Predicting customer churn using machine learning techniques to identify customers at risk of leaving and uncover the key factors influencing customer retention.
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn is one of the biggest challenges faced by subscription-based businesses. Retaining existing customers is often more cost-effective than acquiring new ones, making churn prediction an important business problem.
 
 This project develops a machine learning model to predict customer churn using customer demographics, subscription information, billing details, and service usage data. The project follows an end-to-end machine learning workflow, from data cleaning and exploratory data analysis (EDA) to model development, evaluation, interpretation, and business recommendations.
 
-## 🎯 Objectives
+## Objectives
 
 - Develop a machine learning model to predict customer churn.
 - Compare the performance of multiple classification algorithms.
 - Identify the most important factors influencing customer churn.
 - Generate business recommendations based on model findings.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 Customer-Churn-Prediction/
@@ -36,7 +36,7 @@ Customer-Churn-Prediction/
 └── .gitignore
 ```
 
-## 📊 Dataset
+## Dataset
 
 **Dataset:** IBM Telco Customer Churn Dataset
 
@@ -48,7 +48,7 @@ The dataset contains customer demographic information, subscription details, bil
     - 1 = Customer churned
     - 0 = Customer retained
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -63,7 +63,7 @@ The dataset contains customer demographic information, subscription details, bil
 - RandomizedSearchCV
 - Jupyter Notebook
 
-## ⚙️ Machine Learning Workflow
+## Machine Learning Workflow
 
 The project follows an end-to-end machine learning pipeline:
 
@@ -84,7 +84,7 @@ The project follows an end-to-end machine learning pipeline:
 - ✅ Feature Importance Analysis
 - ✅ Business Recommendations
 
-## 📈 Model Performance
+## Model Performance
 
 The performance of three classification models was evaluated using Accuracy, Precision, Recall, F1-Score, and ROC-AUC.
 
@@ -98,7 +98,7 @@ The performance of three classification models was evaluated using Accuracy, Pre
 
 Although XGBoost achieved the highest overall accuracy, Logistic Regression was selected as the final model because it produced the highest Recall and ROC-AUC. Since the primary objective is to identify customers likely to churn, Recall was prioritized to minimize false negatives.
 
-## 🧪 Feature Selection Experiment
+## Feature Selection Experiment
 
 An experiment was conducted to evaluate whether **Customer Lifetime Value (CLTV)** improved prediction performance.
 
@@ -111,7 +111,7 @@ The evaluation metrics remained identical across all models, indicating that CLT
 
 Therefore, CLTV was excluded from the final model to simplify the feature set without sacrificing predictive performance.
 
-## ⚡ Hyperparameter Tuning
+## Hyperparameter Tuning
 
 Hyperparameter tuning was performed using **RandomizedSearchCV** with 5-fold cross-validation.
 
@@ -125,7 +125,7 @@ The best configuration was:
 
 The tuned model produced only marginal improvements compared to the baseline model, indicating that the default Logistic Regression parameters were already well suited for the dataset.
 
-## 📊 Feature Importance
+## Feature Importance
 
 The final Logistic Regression model was interpreted using feature coefficients to identify the variables that most strongly influenced customer churn.
 
@@ -142,7 +142,7 @@ The figure below illustrates the most influential features identified by the mod
   <img src="images/feature_coefficients.png" alt="Churn Distribution" width="600"/>
 </p>
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 Based on the model findings, the following recommendations are proposed to reduce customer churn:
 
@@ -152,7 +152,7 @@ Based on the model findings, the following recommendations are proposed to reduc
 - Monitor customers using Electronic Check and Paperless Billing, as these groups exhibited a higher tendency to churn and may benefit from targeted retention strategies.
 - Continue developing products and services that appeal to family-oriented customers, as customers with dependents demonstrated stronger customer retention.
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Potential future enhancements for this project include:
 
@@ -162,7 +162,7 @@ Potential future enhancements for this project include:
 - Incorporate new customer behavior data to improve predictive performance.
 - Implement automated model retraining using updated customer data.
 
-## 📝 Conclusion
+## Conclusion
 
 This project demonstrates a complete end-to-end machine learning workflow for predicting customer churn.
 
@@ -172,13 +172,13 @@ Beyond predictive performance, the project also investigated feature selection t
 
 Overall, this project combines machine learning techniques with business insights to support data-driven customer retention strategies.
 
-## 👤 Author
+## Author
 
 **Nabilah Nordin**
 
-- 🎓 Bachelor of Computer Science (Data Science)
-- 📍 Malaysia
-- 💼 Aspiring Data Analyst / Data Scientist
+-  Bachelor of Computer Science (Data Science)
+-  Malaysia
+-  Aspiring Data Analyst / Data Scientist
 
 ### Connect with me
 
